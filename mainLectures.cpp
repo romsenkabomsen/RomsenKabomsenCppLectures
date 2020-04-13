@@ -10,13 +10,13 @@ Pre-Processor
 
 //Inclusion
 //("Strg"+Klick auf den include Befehl öffnet das Kapitel)
-//#include "preProcessorIncludes.cpp"
+#include "preProcessorIncludes.cpp"
 
 //Macros
-//#include "preProcessorMacros.cpp"
+#include "preProcessorMacros.cpp"
 
 //Conditionals
-//#include "preProcessorConditionals.cpp"
+#include "preProcessorConditionals.cpp"
 
 //Line Control
 //http://www.cplusplus.com/doc/tutorial/preprocessor/
@@ -41,16 +41,3 @@ Linker
   nenten zu einem ausführbaren Gesamt-Programm zusammen.
 */
 
-// standard macro names
-#include <iostream>
-using namespace std;
-
-int main()
-{
-    cout << "This is the line number " << __LINE__;
-    cout << " of file " << __FILE__ << ".\n";
-    cout << "Its compilation began " << __DATE__;
-    cout << " at " << __TIME__ << ".\n";
-    cout << "The compiler gives a __cplusplus value of " << __cplusplus;
-    return 0;
-}
