@@ -1,0 +1,1 @@
+add_executable(cpp_lectures_app mainLectures.cpp)
